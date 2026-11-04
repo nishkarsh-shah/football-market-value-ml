@@ -26,9 +26,9 @@ The script downloads only files that are missing from `data/`. To download the f
 
 ```bash
 mkdir -p data
-curl -L --fail -o data/players.csv.gz https://pub-e682421888d945d684bcae889b0ec20.r2.dev/data/players.csv.gz
-curl -L --fail -o data/appearances.csv.gz https://pub-e682421888d945d684bcae889b0ec20.r2.dev/data/appearances.csv.gz
-curl -L --fail -o data/player_valuations.csv.gz https://pub-e682421888d945d684bcae889b0ec20.r2.dev/data/player_valuations.csv.gz
+curl -L --fail -o data/players.csv.gz https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz
+curl -L --fail -o data/appearances.csv.gz https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/appearances.csv.gz
+curl -L --fail -o data/player_valuations.csv.gz https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/player_valuations.csv.gz
 ```
 
 The upstream project notes that its published data is not continuously refreshed, so results can change if the files are updated. The notebook’s reported results were produced from the local files used in this project.
